@@ -81,8 +81,6 @@ header img{
     height: 8px;
     margin-left: 10px;
     background-image: url('./assets/icons/down-arrow.svg');
-<<<<<<< HEAD
-=======
 }
 main{ 
     width: 100%;
@@ -219,5 +217,4 @@ main{
     font-weight: 300;
     font-size: 1.2rem;
     line-height: 1.5rem;
->>>>>>> main
 }
