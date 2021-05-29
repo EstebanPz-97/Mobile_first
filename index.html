@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px">
     <title>Document</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
             <h2>Visibilizamos todas las tasas de cambio.</h2>
             <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
         </div>
-        <section class="main-tables-container">
+        <section class="main-tables--container">
         <div class="main-currency-table">
             <p class="currency-table--title">Monedas</p>
             <div class="currency-table--container">
@@ -48,11 +49,9 @@
                 </table>
             </div>
             <div class="currency-table--date">
-                <p><b> Actualizado:</b> 25 mayo 23:50</p>
+                <p><b>Actualizado:</b>25 mayo 23:50</p>
             </div>
         </div>
-      </section>
-      <section class="main-tables-container">
         <div class="main-currency-table">
             <p class="currency-table--title2">Comisiones</p>
             <div class="currency-table--container">
@@ -75,8 +74,8 @@
                     </tr>
                 </table>
             </div>
-            <div class="currency-table--date">
-                <p><b> Actualizado:</b>25 mayo 23:50</p>
+            <div class="currency-table--date2">
+                <p><b>Actualizado:</b>25 mayo 23:50</p>
             </div>
         </div>
       </section>
@@ -109,9 +108,55 @@
                 <p class="product--card-body">Nuestras fuentes están 100% verificadas auditando su contenido mientras se actualizan.</p>
             </article>
         </section>
-        <section></section>
     </section>
-    </main>
-    <footer></footer>
+    <section class="bitcoin-image-container">
+        <h2>Conócelo hoy.</h2>
+    </section>
+    <section id="plans-section" class="main-plans-container">
+        <div class="plans--title">
+            <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+            <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+        </div>
+        <section class="plans-container--slider">
+            <article class="plans-container--card">
+                <p class="recommended">Recomendado</p>
+                <div class="plan-body-container">
+                    <h3 class="plan-card--title">Pago anual</h3>
+                    <p class="plan-card--price"><span>$</span>99</p>
+                    <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
+                    <button class="plan-card--ca">Escoge este <span></span></button>
+                </div>
+            </article>
+            <article class="plans-container--card">
+                <div class="plan-body-container">
+                    <h3 class="plan-card--title">Pago quincenal</h3>
+                    <p class="plan-card--price"><span>$</span>14</p>
+                    <p class="plan-card--saving">*Pagas $29 más comparado al plan mensual.</p>
+                    <button class="plan-card--ca">Escoge este <span></span></button>
+                </div>
+            </article >
+            <article class="plans-container--card">
+                <div class="plan-body--container">
+                    <h3 class="plan-card--title">Pago mensual</h3>
+                    <p class="plan-card--price"><span>$</span>19</p>
+                    <p class="plan-card--saving">*Ahorras $28 comparado al plan quincenal.</p>
+                    <button class="plan-card--ca">Escoge este <span></span></button>
+                </div>
+            </article>
+        </section>
+    </section>
+</main>
+<footer>
+    <section class="footer-left">
+        <ul>
+            <li> <a href="#">Linkedin</a> </li>
+            <li> <a href="#">Crunchbase</a></li>
+            <li> <a href="#">Hackernews</a></li>
+        </ul>
+    </section>
+    <section class="footer-right">
+        <img src="./assets/img/logo-footer.svg" alt="Logo de Batatabit 2021">
+    </section>
+</footer>
 </body>
 </html>
